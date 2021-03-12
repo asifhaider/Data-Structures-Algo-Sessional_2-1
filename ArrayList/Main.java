@@ -92,6 +92,10 @@ class Array {
     }
 
     public Array subArray (int start, int end){
+        if (start < 1 || start > end || end > this.currentLength ){
+            System.out.println("Can't produce subArray! Please try with proper positions!");
+            return new Array();
+        }
         String[] newArrayList = new String[end-start+1];
         for (int i=start-1, j=0; i<end; i++,j++){
             newArrayList[j]=this.myArrayList[i];
@@ -226,6 +230,15 @@ public class Main {
 
         array5 = array2.subArray(2,5);
         array2.showArray();
+        array5.showArray();
+
+        array5 = array2.subArray(0,3);
+        array5.showArray();
+
+        array5 =  array2.subArray(2,9);
+        array5.showArray();
+
+        array5 = array2.subArray(6,2);
         array5.showArray();
         System.out.println("====================");
 
