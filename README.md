@@ -1,2 +1,2 @@
-# Data-Structures-Algo-Sessional_2-1
+# Data-Structures-Algorithm-Sessional_2-1
  
