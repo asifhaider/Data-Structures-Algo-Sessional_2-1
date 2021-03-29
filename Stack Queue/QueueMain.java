@@ -1,3 +1,8 @@
+/* Solution of Offline 3 on Data Structure: Queue
+   Author: Md. Asif Haider, 1805112
+   Date: 26 March 2021
+*/
+
 import java.util.Scanner;
 
 public class QueueMain {
